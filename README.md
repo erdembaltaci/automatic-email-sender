@@ -36,11 +36,17 @@ Bu proje, SMTP protokolünü kullanarak toplu e-posta göndermek için bir Pytho
  - smtp_user = 'your_gmail_account@gmail.com'
  - smtp_password = 'your_app_password'  # Gmail uygulama şifreniz 
 
+<br>
+<br>
 
 3. Alıcı listenizi hazırlayın:
   - Masaüstünüzde alıcılar.txt adında bir metin dosyası oluşturun ve göndermek istediğiniz e-posta adreslerini her satıra bir tane olacak şekilde listeleyin.
   - Dosyanın yolu aşağıdaki gibi olmalıdır:
   - C:\\Users\\x\\OneDrive\\Masaüstü\\alıcılar.txt
+
+   <br>
+
+   <br>
 
 
 4. Betiği çalıştırın:
