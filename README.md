@@ -50,8 +50,9 @@ Bu proje, SMTP protokolünü kullanarak toplu e-posta göndermek için bir Pytho
 
 ## Kullanım-2
 
-Kodları manuel olarak kopyalayarak:
+Kodu manuel olarak kopyalayarak:
 - 'email_sender.py' dosyasını oluşturun ve aşağıdaki kodu yapıştırın:
+   <br>
   ```bash
    import smtplib
    from email.mime.multipart import MIMEMultipart
@@ -115,6 +116,7 @@ Kodları manuel olarak kopyalayarak:
        main()
 - Betiği SMTP sunucu bilgilerinizle güncelleyin:
   email_sender.py dosyasını düzenleyin ve aşağıdaki değişkenleri kendi bilgilerinizle güncelleyin:
+   <br>
    ```bash
       smtp_server = 'smtp.gmail.com'
       smtp_port = 587
@@ -122,7 +124,10 @@ Kodları manuel olarak kopyalayarak:
       smtp_password = 'your_app_password'  # Gmail uygulama şifreniz
 - Alıcı listenizi hazırlayın:
   Masaüstünüzde alıcılar.txt adında bir metin dosyası oluşturun ve göndermek istediğiniz e-posta adreslerini her satıra bir tane olacak şekilde listeleyin. Dosyanın    yolu aşağıdaki gibi olmalıdır:
+   <br>
    ```bash
      C:\\Users\\x\\OneDrive\\Masaüstü\\alıcılar.txt
+   
 - Betiği çalıştırın:
+ <br>
   Betiği herhangi bir Python IDE'sinde (PyCharm, VS Code, vb.) veya komut satırında çalıştırabilirsiniz.
